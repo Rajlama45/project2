@@ -1,0 +1,66 @@
+body{
+font-family: Arial, sans-serif;
+background:#f4f7fa;
+display: flex;
+justify-content :center;
+align-items: center;
+height:100vh;
+}
+.container{
+background:white;
+padding:20px 30px;
+border-radius:10px;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+width:350px;
+}
+h1{
+text-align:center;
+margin-bottom:20px;
+}
+.input-area{
+display: flex;
+margin-bottom: 15px;
+}
+input{
+flex:1;
+padding:10px;
+border:2px solid #ddd;
+border-radius:10px;
+}
+button {
+  margin-left: 10px;   /* space between task text and buttons */
+  padding: 4px 8px;    /* makes buttons a bit bigger and easier to click */
+  cursor: pointer;     /* shows pointer on hover */
+  border: none;        /* optional: removes default border */
+  border-radius: 4px;  /* slightly rounded corners */
+  background-color: #007BFF;  /* blue background */
+  color: white;        /* white text */
+}
+
+button:hover {
+  background-color: #0056b3;  /* darker blue on hover */
+}
+
+.done {
+  text-decoration: line-through;
+  color: gray;
+}
+button:hover {
+background: #0056b3;
+}
+ul{
+list-style:none;
+padding:0;
+}
+li {
+  background: #f1f1f1;
+  padding: 10px;
+  margin: 5px 0;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+}
+.done {
+  text-decoration: line-through;
+  color: gray;
+}
